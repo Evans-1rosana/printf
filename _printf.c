@@ -108,7 +108,6 @@ int check_percent(int *flag, char aux)
 int call_funct_mgr(char aux, va_list arg)
 {
 	int cont = 0;
-	
 	cont = function_manager(aux, arg);
 	return (cont);
 }
